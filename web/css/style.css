@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/*Estilos Gerais*/
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/*Header*/
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:#D6D6D6;
+    padding: 15px 0;
+    vertical-align: center;
+    
+}
+
+.header_menu {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.header_menu ul li a {
+    color: #707070;
+    font-weight: bold;
+    letter-spacing: .05em;
+    font-size: 18px;
+    padding: 10px 0;
+
+}
+
+.header_menu ul li a:hover {
+    color: #fff;
+}
+
+/*Introdução*/
