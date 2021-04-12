@@ -136,5 +136,25 @@ body {
     letter-spacing: .1em;
 }
 
+/*Serviços-home*/
+
+.servicos_home {
+    width: 100%;
+    text-align: center;
+    background: #D6D6D6;
+    padding: 50px 0;
+}
+
+.servicos_home li {
+    margin-bottom: 50px;
+}
+
+.servicos_home h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 10px;;
+}
+
 
 
