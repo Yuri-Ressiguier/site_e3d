@@ -4,6 +4,17 @@
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
+    color: #444444;
+}
+
+section {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+img {
+    display: block;
 }
 
 .btn {
@@ -25,8 +36,6 @@ body {
 .subtitulo {
     font-size: 36px;
     font-weight: bold;
-    text-align: center;
-    color: #444444;
     margin-bottom: 70px;
 }
 
@@ -38,14 +47,10 @@ body {
     width: 100%;
     background:#D6D6D6;
     padding: 15px 0;
-    vertical-align: center;
     z-index: 10;
     
 }
 
-.header img {
-    display: block;
-}
 
 .header_menu {
     text-align: right;
@@ -74,18 +79,14 @@ body {
 /*Introdução*/
 
 .intro {
-    margin-top: 80px;
-    width: 100%;
+    margin-top: 80px; /*Para caber o header*/
     background: #B1B1B1;
-    text-align: center;
-    padding: 50px 0;
 }
 
 .intro h1{
     font-size: 36px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #444444;
     letter-spacing: 0.05em;
 }
 
@@ -100,7 +101,6 @@ body {
 
 .intro p {
     font-size: 20px;
-    color: #444444;
     letter-spacing: 0.02em;
     line-height: 25px;
     max-width: 840px;
@@ -109,11 +109,6 @@ body {
 }
 
 /*Projetos - Home*/
-
-.projetos_home {
-   padding: 50px 0;
-   text-align: center;
-}
 
 .projetos_home_lista li {
     background: #8D8D8D;
@@ -136,25 +131,52 @@ body {
     letter-spacing: .1em;
 }
 
-/*Serviços-home*/
+/*Serviços - Home*/
 
 .servicos_home {
-    width: 100%;
-    text-align: center;
     background: #D6D6D6;
-    padding: 50px 0;
 }
 
 .servicos_home li {
     margin-bottom: 50px;
 }
 
-.servicos_home h3 {
+.servicos_home li img {
+    margin: 0 auto;
+}
+
+.servicos_home li h3 {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bolder;
     margin-top: 10px;;
 }
 
+/*Alinhamento - Home*/
 
+.alinhamento_home div:after {
+    content: "";
+    width: 622px;
+    height: 82px;
+    display: block;
+    background: url(../img/linhas.svg) no-repeat center;
+    position: absolute;
+    top: 160px;
+    left: 169px;
+}
 
+.alinhamento_home img {
+    margin: 0 auto;
+}
+
+.alinhamento_home li {
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+.alinhamento_home li p {
+    font-size: 16px;
+    letter-spacing: .1em;
+    font-style: italic;
+    padding-top: 65px;
+}
