@@ -14,6 +14,20 @@ body {
     border-radius: 10px;
     background: #fff;
     box-shadow: 0 3px 6px;
+    clear: both;
+}
+
+.btn:hover {
+   border-color: #000;
+   color: #000; 
+}
+
+.subtitulo {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 70px;
 }
 
 /*Header*/
@@ -25,6 +39,7 @@ body {
     background:#D6D6D6;
     padding: 15px 0;
     vertical-align: center;
+    z-index: 10;
     
 }
 
@@ -62,9 +77,8 @@ body {
     margin-top: 80px;
     width: 100%;
     background: #B1B1B1;
-    height: 360px;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .intro h1{
@@ -81,7 +95,7 @@ body {
     height: 2px;
     width: 430px;
     background: #444444;
-    margin: 15px auto;
+    margin: 20px auto;
 }
 
 .intro p {
@@ -90,10 +104,37 @@ body {
     letter-spacing: 0.02em;
     line-height: 25px;
     max-width: 840px;
-    margin: 0 auto 45px auto;
+    margin: 0 auto 50px auto;
     
 }
 
+/*Projetos - Home*/
+
+.projetos_home {
+   padding: 50px 0;
+   text-align: center;
+}
+
+.projetos_home_lista li {
+    background: #8D8D8D;
+    color: #fff;
+    margin-bottom: 50px;
+
+}
+
+.projetos_home_lista li h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: .1em;
+}
+
+.projetos_home_lista li p {
+    font-size: 16px;
+    padding: 16px;
+    letter-spacing: .1em;
+}
 
 
 
