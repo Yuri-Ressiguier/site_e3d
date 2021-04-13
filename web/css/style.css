@@ -21,6 +21,10 @@ a:visited, a:link {
     color: inherit;
 }
 
+.clear {
+    clear: both;
+}
+
 .btn {
     border: 2px solid #707070;
     color: #707070;
@@ -284,5 +288,15 @@ a:visited, a:link {
 }
 
 /*Contribuições*/
+
+.contribuicoes {
+    background: #D6D6D6;
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 25px; 
+}
 
 
