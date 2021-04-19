@@ -299,4 +299,43 @@ p {
     line-height: 25px; 
 }
 
+/*============================ FIM SOBRE ============================*/
 
+/*Serviços*/
+
+.servicos h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.servicos p {
+    text-align: left;
+}
+
+/*Utilizar margin direto no LI causa conflito com a margin do grid*/
+ 
+.blocos-1 {
+    background: #B1B1B1;
+    margin-top: 20px;
+}
+
+.blocos-2 {
+    border: 2px solid #444444;
+    margin-top: 20px;
+}
+
+.servicos li img {
+    padding-top: 30px;
+}
+
+.servicos_texto {
+    margin: 0 -10px 0 0;
+}
+
+.servicos_texto p {
+    padding: 0 20px 20px 0;
+}
+
+/*============================ FIM SERVIÇOS ============================*/
